@@ -12,7 +12,7 @@ const FeaturesSection: React.FC = () => {
 
   return (
     <section className="features-section">
-      <h2>FEATURES</h2>
+      <h2 className='features-title'>FEATURES</h2>
       <div className="features-container">
         {features.map((feature, index) => (
           <div key={index} className="feature-card">

@@ -3,7 +3,7 @@
     background-color: rgba(44, 44, 44, 0.1); /* Slightly darker than the gradient */
   }
   
-  h2 {
+  .features-title {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 40px;

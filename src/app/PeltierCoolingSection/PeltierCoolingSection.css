@@ -1,0 +1,84 @@
+/* ZenPositionSection.css */
+
+.peltier-cooling-section {
+    padding: 80px 200px;
+    background: radial-gradient(circle at top left, #424240, #86827b, #D2C0A7); /* Match background to your main theme */
+    color: #E4E4E4; /* Off-white text color */
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid #D2C0A7;
+}
+
+.peltier-cooling-content {
+    flex: 1;
+    margin-right: 40px; /* Space between text and image */
+}
+
+.peltier-cooling-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #E4E4E4;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600; /* Slightly bolder for emphasis */
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.peltier-cooling-text {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: #E4E4E4;
+}
+
+.peltier-cooling-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.peltier-cooling-list-item {
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+    color: #E4E4E4;
+}
+
+.peltier-cooling-list-item::before {
+    content: '✔'; /* Change bullet point to a checkmark */
+    position: absolute;
+    left: 0;
+    color: #D2C0A7; /* Light wood tone color */
+    font-size: 1.5em;
+}
+
+.peltier-cooling-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-frame {
+    border: 8px solid #D2C0A7; /* Light wood-tone border */
+    padding: 10px;
+    background-color: #F4F4F4; /* Background for image frame */
+    border-radius: 8px;
+}
+
+.image-frame img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .zen-position-section {
+        flex-direction: column;
+        padding: 60px 30px;
+    }
+
+    .zen-position-content {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+}

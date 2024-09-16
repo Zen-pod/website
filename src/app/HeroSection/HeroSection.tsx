@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
         <div className="hero-image">
-          <img src="/pod-image.png" alt="Zen Resting Pod" />
+          <img src={process.env.PUBLIC_URL + '/pod-image.png'} alt="Zen Resting Pod" />
         </div>
       </div>
     </section>

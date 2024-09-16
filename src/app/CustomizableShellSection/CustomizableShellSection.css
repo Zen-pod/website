@@ -1,0 +1,84 @@
+/* CustomizableShellSection.css */
+
+.customizable-shell-section {
+    padding: 80px 200px;
+    background: radial-gradient(circle at top left, #D2C0A7, #86827b, #424240); /* Reverse gradient */
+    color: #E4E4E4;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 3px solid #E4E4E4;
+}
+
+.customizable-shell-content {
+    flex: 1;
+    margin-left: 40px; /* Space between image and text */
+}
+
+.customizable-shell-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #E4E4E4;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.customizable-shell-text {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: #E4E4E4;
+}
+
+.customizable-shell-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.customizable-shell-list-item {
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+    color: #E4E4E4;
+}
+
+.customizable-shell-list-item::before {
+    content: '✔'; /* Checkmark bullet */
+    position: absolute;
+    left: 0;
+    color: #D2C0A7;
+    font-size: 1.5em;
+}
+
+.customizable-shell-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-frame {
+    border: 8px solid #D2C0A7;
+    padding: 10px;
+    background-color: #F4F4F4;
+    border-radius: 8px;
+}
+
+.image-frame img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .customizable-shell-section {
+        flex-direction: column-reverse;
+        padding: 60px 30px;
+    }
+
+    .customizable-shell-content {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+}
