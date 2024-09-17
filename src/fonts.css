@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Aloevera Sans';
+    src: url('../public/fonts/Aloevera-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Aloevera Sans';
+    src: url('../public/fonts/Aloevera-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}

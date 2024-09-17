@@ -2,11 +2,11 @@
 
 .soundscapes-section {
     padding: 80px 200px;
-    background: radial-gradient(circle at top left, #424240, #86827b, #D2C0A7); /* Match background to your main theme */
-    color: #E4E4E4; /* Off-white text color */
+    background: radial-gradient(circle at top left, #D2C0A7, #86827b, #424240); /* Match background to your main theme */
+    color: #2c2c2c; /* Off-white text color */
     display: flex;
     justify-content: flex-start;
-    border-bottom: 3px solid #D2C0A7;
+    /* border-bottom: 2px solid #D2C0A7; */
 }
 
 .soundscapes-content {
@@ -17,7 +17,7 @@
 .soundscapes-title {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #E4E4E4;
+    color: #2c2c2c;
     font-family: 'Arial', sans-serif;
     font-weight: 600; /* Slightly bolder for emphasis */
     letter-spacing: 1px;
@@ -28,7 +28,7 @@
     font-size: 1.2rem;
     margin-bottom: 25px;
     line-height: 1.6;
-    color: #E4E4E4;
+    color: #2c2c2c;
 }
 
 .soundscapes-list {
@@ -40,7 +40,7 @@
     margin-bottom: 15px;
     padding-left: 30px;
     position: relative;
-    color: #E4E4E4;
+    color: #2c2c2c;
 }
 
 .soundscapes-list-item::before {
@@ -81,4 +81,17 @@
         margin-right: 0;
         margin-bottom: 40px;
     }
+
+    .soundscapes-title {
+        font-size: 2rem;
+    }
+
+    .soundscapes-text {
+        font-size: 1rem;
+    }
+
+    .image-frame {
+        max-width: 100%;
+    }
+    
 }

@@ -16,7 +16,7 @@ const ZenPositionSection: React.FC = () => {
       </div>
       <div className="peltier-cooling-image">
         <div className="image-frame">
-          <img src={process.env.PUBLIC_URL + '/'} alt="Zen Position Demonstration" />
+          <img src={process.env.PUBLIC_URL + '/cooling.jpg'} alt="Zen Position Demonstration" style={{ width: 'auto', height: '400px' }}/>
         </div>
       </div>
     </section>

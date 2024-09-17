@@ -60,3 +60,18 @@
 .nav ul li a:hover::after {
   transform: scaleX(1);
 }
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .nav {
+    display: none;
+  }
+}

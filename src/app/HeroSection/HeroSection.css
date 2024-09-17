@@ -1,10 +1,11 @@
 body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    color: #2C2C2C;
-    font-family: Arial, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: #2C2C2C;
+  font-family: 'Aloevera Sans';
+  overflow-x: hidden; /* This will prevent horizontal scrolling */
+}
   
   .hero-section {
     padding: 80px 20px;
@@ -15,8 +16,11 @@ body {
   }
   
   .hero-content {
-    max-width: 1200px;
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    padding: 0 20px;  /* Add padding to prevent the content from touching the edges */
+    box-sizing: border-box;
     display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     align-items: center;
     justify-content: space-between;
   }
@@ -80,16 +84,22 @@ body {
   
   @media (max-width: 768px) {
     .hero-content {
-      flex-direction: column;
+      flex-direction: column; /* Stack elements on top of each other */
+      margin: 0;
     }
   
-    .hero-text {
-      padding-right: 0;
-      margin-bottom: 40px;
+    .hero-text, .hero-image {
+      width: 100%; /* Ensure full width for text and image */
+      text-align: center; /* Center text on mobile */
     }
   
-    .hero-image {
-      order: -1;
-      margin-bottom: 40px;
+    .hero-image img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .btn {
+      width: 100%; /* Ensure buttons take full width on mobile */
     }
   }
+  

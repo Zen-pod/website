@@ -7,6 +7,8 @@ import CustomizableShellSection from "./CustomizableShellSection/CustomizableShe
 import SoundscapesSection from "./SoundscapesSection/SoundscapesSection.tsx";
 import AromatherapySection from "./AromatherapySection/AromatherapySection.tsx";
 import PeltierCoolingSection from "./PeltierCoolingSection/PeltierCoolingSection.tsx";
+import TeamSection from "./TeamSection/TeamSection.tsx";
+import ContactSection from "./ContactSection/ContactSection.tsx";
 import Footer from "./Footer/footer.tsx";
 
 export default function Index() {
@@ -22,6 +24,10 @@ export default function Index() {
       <SoundscapesSection />
       <AromatherapySection />
       <PeltierCoolingSection />
+      <div style={{ background: 'radial-gradient(ellipse at top, #D2C0A7, #86827b, #424240)' }}>
+        <TeamSection />
+        <ContactSection />
+      </div>
       <Footer />
     </>
   );

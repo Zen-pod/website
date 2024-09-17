@@ -16,7 +16,7 @@ const ZenPositionSection: React.FC = () => {
       </div>
       <div className="soundscapes-image">
         <div className="image-frame">
-          <img src={process.env.PUBLIC_URL + '/'} alt="Soundscapes" />
+          <img src={process.env.PUBLIC_URL + '/render_mob.jpg'} alt="Soundscapes" style={{ width: 'auto', height: '400px' }}/>
         </div>
       </div>
     </section>

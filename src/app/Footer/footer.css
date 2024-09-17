@@ -8,3 +8,13 @@
     font-size: 0.875rem;
     color: #D1D5DB;
   }
+
+  @media (max-width: 768px) {
+    .footer {
+      padding: 1rem;
+    }
+  
+    .footer-text {
+      font-size: 0.75rem;
+    }
+  }
