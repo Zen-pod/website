@@ -15,7 +15,7 @@ const TeamMember = ({ name, role, image }: { name: string; role: string; image: 
 
 const TeamSection = () => {
   const teamMembers = [
-    { name: 'Adelin Johari', role: 'CEO & co-ounder', linkedIn: 'https://www.linkedin.com/in/adelin-johari-561a42256/', image: `${process.env.PUBLIC_URL}/adelin-img.png`},
+    { name: 'Adelin Johari', role: 'CEO & co-ounder', linkedIn: 'https://www.linkedin.com/in/adelin-johari-561a42256/', image: `${process.env.PUBLIC_URL}/adelin-img.JPG`},
     { name: 'Paraaga Raghavendra', role: 'co-founder', linkedIn: 'https://www.linkedin.com/in/paraaga-raghavendra-84ba3a255/', image: `${process.env.PUBLIC_URL}/paraaga-img.jpg`},
     { name: 'Wen Xin', role: 'Buiness Analyst', linkedIn: 'https://www.linkedin.com/in/wen-xin-foo-788911256/', image: `${process.env.PUBLIC_URL}/wenxin-img.jpg`},
     { name: 'Aqif Yeo', role: 'Product Designer', linkedIn: 'https://www.linkedin.com/in/aqif-yeo/', image: `${process.env.PUBLIC_URL}/aqif-img.jpg`},
