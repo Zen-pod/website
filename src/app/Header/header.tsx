@@ -4,7 +4,7 @@ import './header.css';
 export default function Header() {
   return (
     <header className="header">
-      <img src={process.env.PUBLIC_URL + '/Zen_logo-2.png'} alt="Zen" className="logo" />
+      <h1 className="logo">ZEN</h1>
       <nav className="nav">
         <ul>
           <li><a href="#home">Home</a></li>

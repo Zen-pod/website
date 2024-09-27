@@ -1,7 +1,7 @@
 /* CustomizableShellSection.css */
 
 .aromatherapy-section {
-    padding: 80px 200px;
+    padding: 80px 200px 80px 70px;
     background: radial-gradient(circle at top left, #424242, #86827b, #D2C0A7); /* Reverse gradient */
     color: #2c2c2c;
     display: flex;
@@ -58,10 +58,8 @@
     align-items: center;
 }
 
-.image-frame {
-    border: 8px solid #D2C0A7;
+.image-frame-aromatherapy {
     padding: 10px;
-    background-color: #F4F4F4;
     border-radius: 8px;
 }
 

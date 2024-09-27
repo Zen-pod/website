@@ -5,8 +5,8 @@ const CustomizableShellSection: React.FC = () => {
   return (
     <section className="aromatherapy-section">
       <div className="aromatherapy-image">
-        <div className="image-frame">
-          <img src={process.env.PUBLIC_URL + '/aro.jpg'} alt="Customizable Shell Demonstration" />
+        <div className="image-frame-aromatherapy">
+          <img src={process.env.PUBLIC_URL + '/aro.png'} alt="Customizable Shell Demonstration" width={300} height={300}/>
         </div>
       </div>
       <div className="aromatherapy-content">

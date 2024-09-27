@@ -1,7 +1,7 @@
 /* ZenPositionSection.css */
 
 .soundscapes-section {
-    padding: 80px 200px;
+    padding: 80px 70px 80px 200px;
     background: radial-gradient(circle at top left, #D2C0A7, #86827b, #424240); /* Match background to your main theme */
     color: #2c2c2c; /* Off-white text color */
     display: flex;
@@ -58,10 +58,8 @@
     align-items: center;
 }
 
-.image-frame {
-    border: 8px solid #D2C0A7; /* Light wood-tone border */
+.image-frame-soundscapes {
     padding: 10px;
-    background-color: #F4F4F4; /* Background for image frame */
     border-radius: 8px;
 }
 
