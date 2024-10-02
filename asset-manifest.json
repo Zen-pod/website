@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.94562699.css",
-    "main.js": "/website/static/js/main.3f1129fd.js",
+    "main.css": "/website/static/css/main.86ae0e07.css",
+    "main.js": "/website/static/js/main.d0e4f4d1.js",
     "static/js/453.d0bab51d.chunk.js": "/website/static/js/453.d0bab51d.chunk.js",
     "static/media/Aloevera-Bold.otf": "/website/static/media/Aloevera-Bold.5599904fc485cc4f1253.otf",
     "static/media/Aloevera-Regular.otf": "/website/static/media/Aloevera-Regular.e30207148e25541e4643.otf",
     "index.html": "/website/index.html",
-    "main.94562699.css.map": "/website/static/css/main.94562699.css.map",
-    "main.3f1129fd.js.map": "/website/static/js/main.3f1129fd.js.map",
+    "main.86ae0e07.css.map": "/website/static/css/main.86ae0e07.css.map",
+    "main.d0e4f4d1.js.map": "/website/static/js/main.d0e4f4d1.js.map",
     "453.d0bab51d.chunk.js.map": "/website/static/js/453.d0bab51d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94562699.css",
-    "static/js/main.3f1129fd.js"
+    "static/css/main.86ae0e07.css",
+    "static/js/main.d0e4f4d1.js"
   ]
 }
