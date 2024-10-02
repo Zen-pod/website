@@ -1,0 +1,8 @@
+<script type="text/javascript">
+  var redirect = '/';
+  var errorPath = window.location.pathname;
+  if (errorPath.length > 0) {
+    redirect += errorPath.substring(1);
+  }
+  window.location.replace(redirect);
+</script>
