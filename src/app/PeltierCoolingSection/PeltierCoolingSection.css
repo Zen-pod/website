@@ -1,17 +1,17 @@
-/* ZenPositionSection.css */
+/* PeltierCoolingSection.css */
 
 .peltier-cooling-section {
     padding: 80px 70px 80px 200px;
-    background: radial-gradient(circle at top left, #D2C0A7, #86827b, #424242); /* Match background to your main theme */
-    color: #2c2c2c; /* Off-white text color */
+    background: radial-gradient(circle at top left, #D2C0A7, #86827b, #424240);
+    color: #2c2c2c;
     display: flex;
     justify-content: flex-start;
-    /* border-bottom: 2px solid #D2C0A7; */
+    align-items: center;
 }
 
 .peltier-cooling-content {
     flex: 1;
-    margin-right: 40px; /* Space between text and image */
+    margin-right: 40px;
 }
 
 .peltier-cooling-title {
@@ -19,7 +19,7 @@
     margin-bottom: 20px;
     color: #2c2c2c;
     font-family: 'Arial', sans-serif;
-    font-weight: 600; /* Slightly bolder for emphasis */
+    font-weight: 600;
     letter-spacing: 1px;
     text-align: left;
 }
@@ -44,10 +44,10 @@
 }
 
 .peltier-cooling-list-item::before {
-    content: '✔'; /* Change bullet point to a checkmark */
+    content: '✔';
     position: absolute;
     left: 0;
-    color: #D2C0A7; /* Light wood tone color */
+    color: #D2C0A7;
     font-size: 1.5em;
 }
 
@@ -63,33 +63,46 @@
     border-radius: 8px;
 }
 
-.image-frame img {
+.image-frame-peltier img {
     max-width: 100%;
     height: auto;
     display: block;
 }
 
+/* Mobile responsiveness */
 @media (max-width: 768px) {
-    .zen-position-section {
+    .peltier-cooling-section {
         flex-direction: column;
-        padding: 60px 30px;
+        padding: 40px 20px;
+        align-items: center;
     }
 
-    .zen-position-content {
+    .peltier-cooling-content {
         margin-right: 0;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        text-align: center;
     }
 
     .peltier-cooling-title {
         font-size: 2rem;
+        text-align: center;
     }
 
     .peltier-cooling-text {
         font-size: 1rem;
+        text-align: center;
     }
 
-    .image-frame {
-        max-width: 100%;
+    .peltier-cooling-list-item {
+        font-size: 0.9rem;
+        text-align: center;
     }
-    
+
+    .peltier-cooling-image {
+        margin-top: 20px;
+    }
+
+    .image-frame-peltier {
+        max-width: 80%;
+    }
 }

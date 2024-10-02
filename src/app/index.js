@@ -14,8 +14,8 @@ import Footer from "./Footer/footer.tsx";
 export default function Index() {
   return (
     <>
-      <div style={{ background: 'radial-gradient(ellipse at center, #D2C0A7, #86827b, #424240)' }}>
-        <Header />
+      <Header />
+      <div className='Radial-bg' style={{ background: 'radial-gradient(ellipse at center, #D2C0A7, #86827b, #424240)' }}>
         <HeroSection />
         <FeaturesSection />
       </div>

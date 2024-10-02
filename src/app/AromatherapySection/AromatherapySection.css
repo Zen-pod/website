@@ -70,12 +70,12 @@
 }
 
 @media (max-width: 768px) {
-    .customizable-shell-section {
+    .aromatherapy-section {
         flex-direction: column-reverse;
         padding: 60px 30px;
     }
 
-    .customizable-shell-content {
+    .aromatherapy-content {
         margin-left: 0;
         margin-bottom: 40px;
     }

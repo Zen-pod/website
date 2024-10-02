@@ -1,7 +1,7 @@
 import React from 'react';
 import './SoundscapesSection.css';
 
-const ZenPositionSection: React.FC = () => {
+const SoundscapesSection: React.FC = () => {
   return (
     <section className="soundscapes-section">
       <div className="soundscapes-content">
@@ -23,4 +23,4 @@ const ZenPositionSection: React.FC = () => {
   );
 };
 
-export default ZenPositionSection;
+export default SoundscapesSection;

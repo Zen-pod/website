@@ -1,7 +1,7 @@
 import React from 'react';
 import './PeltierCoolingSection.css';
 
-const ZenPositionSection: React.FC = () => {
+const PeltierCoolingSection: React.FC = () => {
   return (
     <section className="peltier-cooling-section">
       <div className="peltier-cooling-content">
@@ -16,11 +16,11 @@ const ZenPositionSection: React.FC = () => {
       </div>
       <div className="peltier-cooling-image">
         <div className="image-frame-peltier">
-          <img src={process.env.PUBLIC_URL + '/cooling.png'} alt="Zen Position Demonstration" width={350} height={350}/>
+          <img src={process.env.PUBLIC_URL + '/cooling.png'} alt="Peltier Cooling Demonstration" width={350} height={350}/>
         </div>
       </div>
     </section>
   );
 };
 
-export default ZenPositionSection;
+export default PeltierCoolingSection;

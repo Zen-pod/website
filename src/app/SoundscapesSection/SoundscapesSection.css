@@ -1,12 +1,12 @@
-/* ZenPositionSection.css */
+/* SoundscapesSection.css */
 
 .soundscapes-section {
     padding: 80px 70px 80px 200px;
     background: radial-gradient(circle at top left, #D2C0A7, #86827b, #424240); /* Match background to your main theme */
-    color: #2c2c2c; /* Off-white text color */
+    color: #2c2c2c;
     display: flex;
     justify-content: flex-start;
-    /* border-bottom: 2px solid #D2C0A7; */
+    align-items: center;
 }
 
 .soundscapes-content {
@@ -19,7 +19,7 @@
     margin-bottom: 20px;
     color: #2c2c2c;
     font-family: 'Arial', sans-serif;
-    font-weight: 600; /* Slightly bolder for emphasis */
+    font-weight: 600;
     letter-spacing: 1px;
     text-align: left;
 }
@@ -44,10 +44,10 @@
 }
 
 .soundscapes-list-item::before {
-    content: '✔'; /* Change bullet point to a checkmark */
+    content: '✔';
     position: absolute;
     left: 0;
-    color: #D2C0A7; /* Light wood tone color */
+    color: #D2C0A7;
     font-size: 1.5em;
 }
 
@@ -69,27 +69,37 @@
     display: block;
 }
 
+/* Mobile responsiveness */
 @media (max-width: 768px) {
-    .zen-position-section {
-        flex-direction: column;
-        padding: 60px 30px;
+    .soundscapes-section {
+        flex-direction: column; /* Stack image and text on top of each other */
+        padding: 40px 20px; /* Reduce padding for mobile */
+        align-items: center;
     }
 
-    .zen-position-content {
+    .soundscapes-content {
         margin-right: 0;
-        margin-bottom: 40px;
+        margin-bottom: 30px; /* Add margin between text and image */
+        text-align: center; /* Center text on mobile */
     }
 
     .soundscapes-title {
-        font-size: 2rem;
+        font-size: 2rem; /* Reduce font size on mobile */
     }
 
     .soundscapes-text {
-        font-size: 1rem;
+        font-size: 1rem; /* Reduce text size */
+    }
+
+    .soundscapes-list-item {
+        font-size: 0.9rem; /* Adjust list item font size */
+    }
+
+    .soundscapes-image {
+        margin-top: 20px;
     }
 
     .image-frame {
-        max-width: 100%;
+        max-width: 80%; /* Make image smaller on mobile */
     }
-    
 }

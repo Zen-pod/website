@@ -1,7 +1,7 @@
 import React from 'react';
 import './AromatherapySection.css';
 
-const CustomizableShellSection: React.FC = () => {
+const AromatherapySection: React.FC = () => {
   return (
     <section className="aromatherapy-section">
       <div className="aromatherapy-image">
@@ -23,4 +23,4 @@ const CustomizableShellSection: React.FC = () => {
   );
 };
 
-export default CustomizableShellSection;
+export default AromatherapySection;

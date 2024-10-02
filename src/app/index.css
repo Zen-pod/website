@@ -1,0 +1,10 @@
+@media (max-width: 800px) {
+    .radial-bg, .hero-section, .features-section, .zen-position-section, .customizable-shell-section, .soundscapes-section, .aromatherapy-section, .peltier-cooling-section {
+      padding: 10px;
+      width: 100%; /* Ensure they take up full width */
+    }
+}
+
+* {
+    box-sizing: border-box;
+  }
