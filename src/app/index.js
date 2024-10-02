@@ -15,7 +15,7 @@ export default function Index() {
   return (
     <>
       <Header />
-      <div className='Radial-bg' style={{ background: 'radial-gradient(ellipse at center, #D2C0A7, #86827b, #424240)' }}>
+      <div className='Radial-bg' style={{ background: 'radial-gradient(ellipse at center, #D2C0A7, #E9D9CC, #FFF)' }}>
         <HeroSection />
         <FeaturesSection />
       </div>
