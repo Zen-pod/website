@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c2d94f4.css",
-    "main.js": "/static/js/main.5452dfca.js",
+    "main.css": "/static/css/main.e48fdb64.css",
+    "main.js": "/static/js/main.62f4cd2c.js",
     "static/js/453.d0bab51d.chunk.js": "/static/js/453.d0bab51d.chunk.js",
     "static/media/Aloevera-Bold.otf": "/static/media/Aloevera-Bold.5599904fc485cc4f1253.otf",
     "static/media/Aloevera-Regular.otf": "/static/media/Aloevera-Regular.e30207148e25541e4643.otf",
     "index.html": "/index.html",
-    "main.9c2d94f4.css.map": "/static/css/main.9c2d94f4.css.map",
-    "main.5452dfca.js.map": "/static/js/main.5452dfca.js.map",
+    "main.e48fdb64.css.map": "/static/css/main.e48fdb64.css.map",
+    "main.62f4cd2c.js.map": "/static/js/main.62f4cd2c.js.map",
     "453.d0bab51d.chunk.js.map": "/static/js/453.d0bab51d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2d94f4.css",
-    "static/js/main.5452dfca.js"
+    "static/css/main.e48fdb64.css",
+    "static/js/main.62f4cd2c.js"
   ]
 }
